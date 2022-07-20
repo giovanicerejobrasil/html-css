@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping Tags</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: dimgray;
+      margin: 0;
+    }
+
+    header {
+      background-color: aliceblue;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    nav {
+      background-color: lightgray;
+      padding: 10px;
+      box-shadow: 3px 2px 3px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    nav > a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      margin-right: 30px;
+    }
+
+    nav > a:hover {
+      color: darkblue;
+    }
+
+    main {
+      background-color: aliceblue;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px 0;
+      box-shadow: 4px 3px 5px 1px rgba(0, 0, 0, 0.4);
+    }
+
+    article {
+      background-color: lightgray;
+      padding: 5px 10px;
+    }
+
+    article > aside {
+      background-color: #a5a5a5;
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 5px;
+      margin: 0;
+    }
+
+    footer > p {
+      margin: 0;
+    }
+
+    div#bola {
+      height: 100px;
+      width: 100px;
+      margin: 20px auto;
+      border-radius: 50%;
+      background-color: white;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Site Legal</h1>
+    <nav>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="assuntos">
+
+    </section>
+    <section id="noticias">
+      <article>
+        <h2>Notícias sobre notícias</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, dicta sed? Expedita aliquam totam repellat corrupti voluptatum ex quas quidem tenetur accusantium. Quas officia deserunt omnis quo architecto, ducimus mollitia quae illum dolorum a reiciendis est nesciunt iure ipsa consequatur cumque voluptas, repellat quis, quidem nulla esse? Suscipit accusantium corporis, ab ea velit ipsam debitis cum deserunt voluptates nemo tempore necessitatibus animi quis ipsa minima, tenetur asperiores soluta hic accusamus amet quasi ullam. Quos, ea esse. Reprehenderit nihil inventore maxime corrupti tempore. Minima placeat quidem nihil ducimus delectus facere fugiat sed assumenda maiores in. Nostrum, neque veritatis! Molestias, ex deserunt.</p>
+        <aside>
+          <p>Artigo escrito por Giovani Brasil</p>
+        </aside>
+      </article>
+
+      <article>
+
+      </article>
+    </section>
+  </main>
+  
+  <footer>
+    <p>Desenvolvido por Giovani Brasil</p>
+  </footer>
+
+  <div id="bola"></div>
+</body>
+</html>
