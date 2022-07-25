@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iframe</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #tela {
+      width: 95vw;
+      height: 400px;
+      border: 2px solid black;
+    }
+
+    .error {
+      background-color: darkred;
+      color: white;
+      padding: 20px;
+      font-size: 1.2em;
+      border-radius: 10px;
+    }
+
+    .error::before {
+      content: "\274C  ";
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Faça uma escolha</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aut similique, optio iste itaque aliquid ab ad dolore est soluta dignissimos, debitis repudiandae recusandae! Veritatis ratione esse nulla molestias illum?</p>
+
+  <ul>
+    <li><a href="./paginas-extras/pag001.html" target="frame">Primeira Página</a></li>
+    <li><a href="./paginas-extras/pag002.html" target="frame">Segunda Página</a></li>
+    <li><a href="./paginas-extras/pag003.html" target="frame">Terceira Página</a></li>
+  </ul>
+
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, reiciendis ex neque rem perspiciatis totam porro similique aperiam ullam ducimus sapiente nostrum, obcaecati dolores ab quam incidunt laborum sit blanditiis.
+  Eligendi autem culpa odit sit earum nostrum perferendis debitis, laboriosam quia ipsam sapiente. Nostrum optio, ipsum cupiditate possimus tenetur at, molestias consequatur velit numquam laborum, porro mollitia? Necessitatibus, mollitia. Dolorem!
+  Ab, cum sequi illo a porro consequuntur temporibus ipsum adipisci quae ullam inventore error quasi repellendus repellat minus laudantium vitae earum at deserunt suscipit voluptatum ipsa ex. Ut, assumenda repudiandae!</p>
+
+  <iframe src="" frameborder="1" id="tela" name="frame">
+    <p class="error">Infelizmente seu navegador não é compatível com iframe!</p>
+  </iframe>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, neque sed. Fuga, officiis similique, perferendis quis quaerat excepturi exercitationem debitis laborum nesciunt repellat aperiam eligendi id tempore, unde officia saepe!
+  Deleniti, ab error eius saepe optio, voluptatem rerum cumque velit, sequi quis dolorem? Laborum quas repellendus, odio et quibusdam consectetur pariatur cum distinctio quae facere ratione, obcaecati veritatis, deleniti eligendi!</p>
+</body>
+</html>
