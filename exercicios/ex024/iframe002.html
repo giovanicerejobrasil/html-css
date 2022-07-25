@@ -17,6 +17,19 @@
       display: block;
       margin: 0 auto;
     }
+
+    .error {
+      background-color: darkred;
+      color: white;
+      padding: 20px;
+      font-size: 1.2em;
+      border-radius: 10px;
+    }
+
+    .error::before {
+      content: "\274C  ";
+      font-size: 1.2em;
+    }
   </style>
 </head>
 <body>
@@ -27,7 +40,9 @@
   Aliquid doloribus iste tempora animi, iure cumque sed. Atque, ab. Quis, soluta voluptas! Dolor qui commodi eius esse aliquam cumque consequatur cupiditate consectetur. Voluptas perspiciatis tenetur consequatur ipsa, architecto nostrum.
   Dicta atque eum similique ipsa voluptate rerum quam vel animi, delectus quis eos dolore aut distinctio minima? Rem aperiam nisi pariatur, expedita eaque fugiat, molestias ducimus vel commodi mollitia aut?</p>
 
-  <iframe src="./pagina001.html" frameborder="0"></iframe>
+  <iframe src="./paginas-extras/pag001.html" frameborder="0">
+    <p class="error">Infelizmente seu navegador não é compatível com iframe!</p>
+  </iframe>
 
   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quae. Numquam sint voluptatibus in repudiandae iusto, praesentium fugit blanditiis, nulla eaque dolore cumque minima, velit expedita nisi odit voluptatem adipisci!
   Debitis nam officia quasi nostrum voluptates saepe commodi. Voluptatem temporibus at ducimus, tempore a illum reprehenderit aliquid eius ut fuga officiis! Consectetur tempore aspernatur sunt vel molestiae nemo laudantium ipsam.
