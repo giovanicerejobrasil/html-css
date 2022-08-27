@@ -8,9 +8,9 @@
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/media-query.css">
+  <link rel="stylesheet" href="css/media-query.css" media="all">
 </head>
-<body>
+<body onresize="mudaTamanho()">
   <header>
     <h1>Meu Site</h1>
     <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
@@ -54,6 +54,14 @@
   </main>
 
   <script>
+    function mudaTamanho () {
+      if (window.innerWidth >= 768) {
+        menuItens.style.display = 'block'
+      } else {
+        menuItens.style.display = 'none'
+      }
+    }
+
     function clickMenu () {
       if (menuItens.style.display === 'block') {
         menuItens.style.display = 'none'
